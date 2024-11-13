@@ -1,0 +1,68 @@
+.social-container button {
+    padding: 10px;
+    
+    border: 0;
+    border-radius: 5px;
+
+}
+
+
+.display-img {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-alt-text {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 4rem;
+}
+
+.toggle-alt-text button {
+    padding: 10px;
+    
+    border: 0;
+    border-radius: 5px;
+}
+
+.img-display-content {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.img-display-content figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-display-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-display-content label {
+    color: var(--fontColorBlack);
+    font-size: var(--fontSizeLarge);
+    font-family: var(--fontFamilyHowl);
+    font-weight: 600;
+
+}
+
+.my-fav-song {
+    margin-top: 4rem;
+}
+
